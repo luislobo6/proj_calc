@@ -20,3 +20,9 @@ def get_fractions(entrada):
     print("Error de formato de numero")
     
   return numero
+
+
+def multiplicacion(a,b):
+  mult_a = get_fractions(a)
+  mult_b = get_fractions(b)
+  return mult_a * mult_b
